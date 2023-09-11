@@ -75,6 +75,7 @@
             this.txtDuongLich.Name = "txtDuongLich";
             this.txtDuongLich.Size = new System.Drawing.Size(275, 23);
             this.txtDuongLich.TabIndex = 3;
+            this.txtDuongLich.Text = "2023";
             // 
             // txtAmLich
             // 
@@ -89,7 +90,7 @@
             this.button1.BackColor = System.Drawing.SystemColors.Highlight;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F);
             this.button1.ForeColor = System.Drawing.Color.Crimson;
-            this.button1.Location = new System.Drawing.Point(240, 320);
+            this.button1.Location = new System.Drawing.Point(228, 335);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(301, 75);
             this.button1.TabIndex = 5;

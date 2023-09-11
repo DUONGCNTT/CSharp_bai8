@@ -65,40 +65,40 @@ namespace CSharp_bai8
             }
             switch (Convert.ToInt32(txtDuongLich.Text) % 12) {
                 case 0:
-                    chi = "tý";
-                    break;
-                case 1:
-                    chi = "sửu";
-                    break;
-                case 2:
-                    chi = "dần";
-                    break;
-                case 3:
-                    chi = "mẹo";
-                    break;
-                case 4:
-                    chi = "thìn";
-                    break;
-                case 5:
-                    chi = "tỵ";
-                    break;
-                case 6:
-                    chi = "ngọ";
-                    break;
-                case 7:
-                    chi = "mùi";
-                    break;
-                case 8:
                     chi = "thân";
                     break;
-                case 9:
+                case 1:
                     chi = "dậu";
                     break;
-                case 10:
+                case 2:
                     chi = "tuất";
                     break;
-                case 11:
+                case 3:
                     chi = "hợi";
+                    break;
+                case 4:
+                    chi = "tý";
+                    break;
+                case 5:
+                    chi = "sửu";
+                    break;
+                case 6:
+                    chi = "dần";
+                    break;
+                case 7:
+                    chi = "mão";
+                    break;
+                case 8:
+                    chi = "thìn";
+                    break;
+                case 9:
+                    chi = "tỵ";
+                    break;
+                case 10:
+                    chi = "ngọ";
+                    break;
+                case 11:
+                    chi = "mùi";
                     break;
             }
             txtAmLich.Text = can + " " + chi;
